@@ -105,6 +105,54 @@
 		52C37FE422644FDC00243DDC /* HXPhotoView.h in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AA39421EEE3BC00D0AA93 /* HXPhotoView.h */; };
 		52C37FE522644FDC00243DDC /* HXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AA3CC21EEE3BD00D0AA93 /* HXPhotoView.m */; };
 		52C37FE622644FEC00243DDC /* HXPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B1AA3DB21EEE3BD00D0AA93 /* HXPhotoPicker.bundle */; };
+		52C3800222645D6600243DDC /* NSArray+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3A321EEE3BC00D0AA93 /* NSArray+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800322645D6600243DDC /* NSBundle+HXPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3A921EEE3BD00D0AA93 /* NSBundle+HXPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800422645D6600243DDC /* NSDate+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39C21EEE3BC00D0AA93 /* NSDate+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800522645D6600243DDC /* NSString+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3A521EEE3BC00D0AA93 /* NSString+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800622645D6600243DDC /* NSTimer+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39B21EEE3BC00D0AA93 /* NSTimer+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800722645D6600243DDC /* UIButton+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3A121EEE3BC00D0AA93 /* UIButton+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800822645D6600243DDC /* UIFont+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3AC21EEE3BD00D0AA93 /* UIFont+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800922645D6600243DDC /* UIImage+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39D21EEE3BC00D0AA93 /* UIImage+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800A22645D6600243DDC /* UIImageView+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3AD21EEE3BD00D0AA93 /* UIImageView+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800B22645D6600243DDC /* UILabel+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39F21EEE3BC00D0AA93 /* UILabel+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800C22645D6600243DDC /* UIView+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3AA21EEE3BD00D0AA93 /* UIView+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800D22645D6600243DDC /* UIViewController+HXExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3A421EEE3BC00D0AA93 /* UIViewController+HXExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800E22645D7A00243DDC /* HXPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3CB21EEE3BD00D0AA93 /* HXPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3800F22645D7A00243DDC /* HXPhotoDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C321EEE3BD00D0AA93 /* HXPhotoDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801022645D7A00243DDC /* HXPhotoManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3E021EEE3BD00D0AA93 /* HXPhotoManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801122645D7A00243DDC /* HXPhotoConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C621EEE3BD00D0AA93 /* HXPhotoConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801222645D7A00243DDC /* HXPhotoTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D321EEE3BD00D0AA93 /* HXPhotoTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801322645D7A00243DDC /* HXPhotoCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D821EEE3BD00D0AA93 /* HXPhotoCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801422645D7A00243DDC /* HXDatePhotoToolManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3BF21EEE3BD00D0AA93 /* HXDatePhotoToolManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801522645D7A00243DDC /* HXCustomAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3AF21EEE3BD00D0AA93 /* HXCustomAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801622645D7A00243DDC /* HXAlbumModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3B921EEE3BD00D0AA93 /* HXAlbumModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801722645D7A00243DDC /* HXPhotoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3DD21EEE3BD00D0AA93 /* HXPhotoModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801822645D7A00243DDC /* HXCustomNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA38A21EEE3BC00D0AA93 /* HXCustomNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801922645D7A00243DDC /* HXPhotoCustomNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D521EEE3BD00D0AA93 /* HXPhotoCustomNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801A22645D7A00243DDC /* HXAlbumlistView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3B621EEE3BD00D0AA93 /* HXAlbumlistView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801B22645D7A00243DDC /* HXAlbumListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D921EEE3BD00D0AA93 /* HXAlbumListViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801C22645D7A00243DDC /* HXCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3B221EEE3BD00D0AA93 /* HXCircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801D22645D7A00243DDC /* HXCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C821EEE3BD00D0AA93 /* HXCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801E22645D7A00243DDC /* HXCustomCameraController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA38721EEE3BC00D0AA93 /* HXCustomCameraController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3801F22645D7A00243DDC /* HXCustomCameraViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C721EEE3BD00D0AA93 /* HXCustomCameraViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802022645D7A00243DDC /* HXCustomCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3B021EEE3BD00D0AA93 /* HXCustomCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802122645D7A00243DDC /* HXCustomPreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3B721EEE3BD00D0AA93 /* HXCustomPreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802222645D7A00243DDC /* HXPhotoPreviewBottomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3CF21EEE3BD00D0AA93 /* HXPhotoPreviewBottomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802322645D7A00243DDC /* HXPhotoPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D121EEE3BD00D0AA93 /* HXPhotoPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802422645D7A00243DDC /* HXPhotoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3E221EEE3BD00D0AA93 /* HXPhotoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802522645D7A00243DDC /* HXPhotoViewFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3E321EEE3BD00D0AA93 /* HXPhotoViewFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802622645D7A00243DDC /* HXVideoEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C221EEE3BD00D0AA93 /* HXVideoEditViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802722645D7A00243DDC /* HXDownloadProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C521EEE3BD00D0AA93 /* HXDownloadProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802822645D7A00243DDC /* HXFullScreenCameraPlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39521EEE3BC00D0AA93 /* HXFullScreenCameraPlayView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802922645D7A00243DDC /* HXPhoto3DTouchViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3D021EEE3BD00D0AA93 /* HXPhoto3DTouchViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802A22645D7A00243DDC /* HXPhotoEditViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3C121EEE3BD00D0AA93 /* HXPhotoEditViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802B22645D7A00243DDC /* HXPhotoSubViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA3BB21EEE3BD00D0AA93 /* HXPhotoSubViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802C22645D7A00243DDC /* HXPhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39421EEE3BC00D0AA93 /* HXPhotoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802D22645D8900243DDC /* HXPhotoInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39221EEE3BC00D0AA93 /* HXPhotoInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802E22645D8900243DDC /* HXPhotoPersentInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA38E21EEE3BC00D0AA93 /* HXPhotoPersentInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3802F22645D8900243DDC /* HXPhotoViewPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA39321EEE3BC00D0AA93 /* HXPhotoViewPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3803022645D8900243DDC /* HXPhotoViewTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B1AA38C21EEE3BC00D0AA93 /* HXPhotoViewTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C3803122645D8900243DDC /* HXPhotoEditTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B9B3C5621F4ABEE0054F920 /* HXPhotoEditTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B0EFFDA220598D100D614E8 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0EFFD8220598D100D614E8 /* SettingViewController.m */; };
 		7B0EFFDB220598D100D614E8 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0EFFD9220598D100D614E8 /* SettingViewController.xib */; };
 		7B1AA3E421EEE3BD00D0AA93 /* HXCustomCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B1AA38421EEE3BC00D0AA93 /* HXCustomCameraViewController.m */; };
@@ -1421,6 +1469,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				52C37F7F22644F8A00243DDC /* HXPhotoPicker.h in Headers */,
+				52C3800222645D6600243DDC /* NSArray+HXExtension.h in Headers */,
+				52C3800322645D6600243DDC /* NSBundle+HXPhotoPicker.h in Headers */,
+				52C3800422645D6600243DDC /* NSDate+HXExtension.h in Headers */,
+				52C3800522645D6600243DDC /* NSString+HXExtension.h in Headers */,
+				52C3800622645D6600243DDC /* NSTimer+HXExtension.h in Headers */,
+				52C3800722645D6600243DDC /* UIButton+HXExtension.h in Headers */,
+				52C3800822645D6600243DDC /* UIFont+HXExtension.h in Headers */,
+				52C3802D22645D8900243DDC /* HXPhotoInteractiveTransition.h in Headers */,
+				52C3802E22645D8900243DDC /* HXPhotoPersentInteractiveTransition.h in Headers */,
+				52C3802F22645D8900243DDC /* HXPhotoViewPresentTransition.h in Headers */,
+				52C3803022645D8900243DDC /* HXPhotoViewTransition.h in Headers */,
+				52C3803122645D8900243DDC /* HXPhotoEditTransition.h in Headers */,
+				52C3800922645D6600243DDC /* UIImage+HXExtension.h in Headers */,
+				52C3800A22645D6600243DDC /* UIImageView+HXExtension.h in Headers */,
+				52C3800B22645D6600243DDC /* UILabel+HXExtension.h in Headers */,
+				52C3800C22645D6600243DDC /* UIView+HXExtension.h in Headers */,
+				52C3800D22645D6600243DDC /* UIViewController+HXExtension.h in Headers */,
+				52C3800E22645D7A00243DDC /* HXPhotoPicker.h in Headers */,
+				52C3800F22645D7A00243DDC /* HXPhotoDefine.h in Headers */,
+				52C3801022645D7A00243DDC /* HXPhotoManager.h in Headers */,
+				52C3801122645D7A00243DDC /* HXPhotoConfiguration.h in Headers */,
+				52C3801222645D7A00243DDC /* HXPhotoTools.h in Headers */,
+				52C3801322645D7A00243DDC /* HXPhotoCommon.h in Headers */,
+				52C3801422645D7A00243DDC /* HXDatePhotoToolManager.h in Headers */,
+				52C3801522645D7A00243DDC /* HXCustomAssetModel.h in Headers */,
+				52C3801622645D7A00243DDC /* HXAlbumModel.h in Headers */,
+				52C3801722645D7A00243DDC /* HXPhotoModel.h in Headers */,
+				52C3801822645D7A00243DDC /* HXCustomNavigationController.h in Headers */,
+				52C3801922645D7A00243DDC /* HXPhotoCustomNavigationBar.h in Headers */,
+				52C3801A22645D7A00243DDC /* HXAlbumlistView.h in Headers */,
+				52C3801B22645D7A00243DDC /* HXAlbumListViewController.h in Headers */,
+				52C3801C22645D7A00243DDC /* HXCircleProgressView.h in Headers */,
+				52C3801D22645D7A00243DDC /* HXCollectionView.h in Headers */,
+				52C3801E22645D7A00243DDC /* HXCustomCameraController.h in Headers */,
+				52C3801F22645D7A00243DDC /* HXCustomCameraViewController.h in Headers */,
+				52C3802022645D7A00243DDC /* HXCustomCollectionReusableView.h in Headers */,
+				52C3802122645D7A00243DDC /* HXCustomPreviewView.h in Headers */,
+				52C3802222645D7A00243DDC /* HXPhotoPreviewBottomView.h in Headers */,
+				52C3802322645D7A00243DDC /* HXPhotoPreviewViewController.h in Headers */,
+				52C3802422645D7A00243DDC /* HXPhotoViewController.h in Headers */,
+				52C3802522645D7A00243DDC /* HXPhotoViewFlowLayout.h in Headers */,
+				52C3802622645D7A00243DDC /* HXVideoEditViewController.h in Headers */,
+				52C3802722645D7A00243DDC /* HXDownloadProgressView.h in Headers */,
+				52C3802822645D7A00243DDC /* HXFullScreenCameraPlayView.h in Headers */,
+				52C3802922645D7A00243DDC /* HXPhoto3DTouchViewController.h in Headers */,
+				52C3802A22645D7A00243DDC /* HXPhotoEditViewController.h in Headers */,
+				52C3802B22645D7A00243DDC /* HXPhotoSubViewCell.h in Headers */,
+				52C3802C22645D7A00243DDC /* HXPhotoView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
