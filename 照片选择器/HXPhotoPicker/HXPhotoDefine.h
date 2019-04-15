@@ -28,13 +28,13 @@
 
 #define HX_UI_IS_IPAD (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
-#define HasYYWebImage (__has_include(<YYWebImage/YYWebImage.h>) || __has_include("YYWebImage.h"))
+#define HasYYWebImage false // (__has_include(<YYWebImage/YYWebImage.h>) || __has_include("YYWebImage.h"))
 
-#define HasYYKit (__has_include(<YYKit/YYKit.h>) || __has_include("YYKit.h"))
+#define HasYYKit false // (__has_include(<YYKit/YYKit.h>) || __has_include("YYKit.h"))
 
-#define HasYYKitOrWebImage (__has_include(<YYWebImage/YYWebImage.h>) || __has_include("YYWebImage.h") || __has_include(<YYKit/YYKit.h>) || __has_include("YYKit.h"))
+#define HasYYKitOrWebImage false //(__has_include(<YYWebImage/YYWebImage.h>) || __has_include("YYWebImage.h") || __has_include(<YYKit/YYKit.h>) || __has_include("YYKit.h"))
 
-#define HasSDWebImage (__has_include(<SDWebImage/UIImageView+WebCache.h>) || __has_include("UIImageView+WebCache.h"))
+#define HasSDWebImage false // (__has_include(<SDWebImage/UIImageView+WebCache.h>) || __has_include("UIImageView+WebCache.h"))
 
 #define HX_IS_IPHONEX (CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(375, 812)) || CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(812, 375)) || CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(414, 896)) || CGSizeEqualToSize([UIScreen mainScreen].bounds.size, CGSizeMake(896, 414)))
 
